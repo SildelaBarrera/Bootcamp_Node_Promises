@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.title{
+    background-color: rgb(255, 208, 0);
+    height: 25vh;
+    width: 100%;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgPokemon{
+    height: 100px;
+    width: 300px;
+    margin-left: 10px;   
+}
+
+h1{
+    color:rgb(50, 93, 173);
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 30pt;
+    margin-right: 10px;
+    padding-top: 30px;
+}
+.cuerpo{
+    background-color: rgb(255, 224, 121);
+    height: 75vh;
+    width: 100%;
+    border:solid 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscador{
+    background-color: rgb(255, 224, 121);
+    height: 75vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-image: url("express\RetoFetch\fondo.jpg"); 
+}
+h2{
+    font-weight: bold;
+    font-family: monospace;
+    font-size:xx-large;
+}
+input{
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
+button{
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8pt;
+    border: 1px solid black;
+    background-color: rgb(255, 35, 35);
+    font-weight: bold;
+    font-family: monospace;
+    font-size: medium;
+}
+button:hover{
+    background-color: rgb(180, 33, 33);
+}
+
+.mostrador{
+    background-color: rgb(255, 170, 121);
+    height: 75vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+#mostrarNombre{
+    border:rgb(211, 13, 13) solid 3px;
+    height: 60px;
+    width: 400px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    background-color: rgb(255, 236, 185);
+    text-align: center;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    margin-bottom: 8px;
+}
+.habilidades{
+    border:rgb(211, 13, 13) solid 3px;
+    height: 120px;
+    width: 400px;
+    background-color: rgb(255, 236, 185);
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mostrarHabilidades{
+    height: 100px;
+    width: 250px;
+    text-align: start;
+    font-size: large;
+    font-family: monospace;
+}
+h3{
+    font-weight: bold;
+}
+#mostrarImagen{
+    border:rgb(211, 13, 13) solid 3px;
+    height: 220px;
+    width: 400px;
+    background-color: rgb(255, 236, 185);
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;   
+}
+    
