@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoPokemon</title>
+    <link rel="stylesheet" type="text/css" href="diseño.css">
+    
+</head>
+<body>
+    <div class="title">
+        <h1>ENCUENTRA TU </h1>
+        <img id="imgPokemon" src="Pokemon.png">
+    </div>
+    <div class="cuerpo">
+        
+        <div class="buscador">
+            <h2>Busca tu pokemon</h2>
+            <input type="text" id="input1" placeholder="Introduce el nombre">
+            <button type="button" onclick="buscar(input1.value)">Buscar</button>
+        </div>
+
+        <div class="mostrador">
+            <div  id="mostrarNombre"></div>
+            <div class="habilidades">
+                <div id="mostrarHabilidades"></div>
+            </div>
+            <div  id="mostrarImagen"></div>
+        </div>
+    </div>
+    
+    <script src="funcionalidad.js"></script> 
+</body>
+</html>
